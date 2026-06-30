@@ -1,4 +1,4 @@
-venv/
+.venv/
 __pycache__/
 *.pyc
 .env
@@ -10,3 +10,8 @@ data/raw/*.json
 !data/sample/
 .databrickscfg
 *.zip
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+terraform.tfvars
